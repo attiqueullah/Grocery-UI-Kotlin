@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/person"
+    tools:context=".onboardingFragment">>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="48.47dp"
+        android:layout_height="56.36dp"
+        android:layout_marginStart="182.76dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="182.76dp"
+        android:src="@drawable/group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="80dp"
+
+        android:text="Welcome \nto our store"
+
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textFontWeight="600"
+        android:textSize="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59.5dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="59.5dp"
+
+        android:text="Ger your groceries in as fast as one hour"
+        android:textAlignment="center"
+        android:textColor="#FCFCFCB2"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="353dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="30.5dp"
+        android:layout_marginEnd="30.5dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn"
+        android:background="@drawable/buttonbackground"
+        android:text="Get Started"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

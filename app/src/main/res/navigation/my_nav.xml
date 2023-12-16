@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/splashscreenFragment">
+
+    <fragment
+        android:id="@+id/splashscreenFragment"
+        android:name="com.example.groceriesappnavigation.splashscreenFragment"
+        android:label="fragment_splashscreen"
+        tools:layout="@layout/fragment_splashscreen" >
+        <action
+            android:id="@+id/action_splashscreenFragment_to_onboardingFragment"
+            app:destination="@id/onboardingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.example.groceriesappnavigation.onboardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding" >
+        <action
+            android:id="@+id/action_onboardingFragment_to_singinFragment"
+            app:destination="@id/singinFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/singinFragment"
+        android:name="com.example.groceriesappnavigation.singinFragment"
+        android:label="fragment_singin"
+        tools:layout="@layout/fragment_singin" >
+        <action
+            android:id="@+id/action_singinFragment_to_numberFragment"
+            app:destination="@id/numberFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/numberFragment"
+        android:name="com.example.groceriesappnavigation.numberFragment"
+        android:label="fragment_number"
+        tools:layout="@layout/fragment_number" >
+        <action
+            android:id="@+id/action_numberFragment_to_verificationFragment"
+            app:destination="@id/verificationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verificationFragment"
+        android:name="com.example.groceriesappnavigation.verificationFragment"
+        android:label="fragment_verification"
+        tools:layout="@layout/fragment_verification" >
+        <action
+            android:id="@+id/action_verificationFragment_to_selectlocFragment"
+            app:destination="@id/selectlocFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectlocFragment"
+        android:name="com.example.groceriesappnavigation.selectlocFragment"
+        android:label="fragment_selectloc"
+        tools:layout="@layout/fragment_selectloc" >
+        <action
+            android:id="@+id/action_selectlocFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.groceriesappnavigation.loginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_singupFragment"
+            app:destination="@id/singupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/singupFragment"
+        android:name="com.example.groceriesappnavigation.singupFragment"
+        android:label="fragment_singup"
+        tools:layout="@layout/fragment_singup" >
+        <action
+            android:id="@+id/action_singupFragment_to_homescreen"
+            app:destination="@id/homescreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/homescreen"
+        android:name="com.example.groceriesappnavigation.homescreen"
+        android:label="fragment_homescreen"
+        tools:layout="@layout/fragment_homescreen" >
+        <action
+            android:id="@+id/action_homescreen_to_productdetailFragment"
+            app:destination="@id/productdetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productdetailFragment"
+        android:name="com.example.groceriesappnavigation.productdetailFragment"
+        android:label="fragment_productdetail"
+        tools:layout="@layout/fragment_productdetail" >
+        <action
+            android:id="@+id/action_productdetailFragment_to_exploreFragment"
+            app:destination="@id/exploreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.groceriesappnavigation.exploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" >
+        <action
+            android:id="@+id/action_exploreFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.groceriesappnavigation.searchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+</navigation>

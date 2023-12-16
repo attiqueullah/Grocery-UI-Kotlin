@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".singupFragment">
+    <ImageView
+
+        android:id="@+id/imageView9"
+        android:layout_width="409dp"
+        android:layout_height="233dp"
+        android:src="@drawable/wallpaper"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="37.72dp"
+        android:layout_height="42.97dp"
+        android:layout_marginStart="183.08dp"
+        android:layout_marginTop="89.92dp"
+        android:layout_marginEnd="183.08dp"
+        android:src="@drawable/fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25.01dp"
+
+        android:layout_marginTop="233.1dp"
+        android:layout_marginEnd="25.01dp"
+        android:lineHeight="29dp"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="#181725"
+        android:textFontWeight="600"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25.01dp"
+        android:layout_marginTop="277.1dp"
+        android:layout_marginEnd="25.01dp"
+        android:text="Enter your credentials to continue"
+        android:lineHeight="15dp"
+
+
+        android:textColor="#7C7C7C"
+
+        android:textSize="16dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+
+        android:layout_height="29dp"
+        android:layout_marginStart="24.88dp"
+        android:layout_marginTop="332.1dp"
+        android:layout_marginEnd="24.88dp"
+        android:lineHeight="29dp"
+        android:text="Username"
+        android:textColor="#7C7C7C"
+        android:textFontWeight="600"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+
+        android:layout_marginStart="24.88dp"
+        android:layout_marginTop="371.1dp"
+        android:layout_marginEnd="24.88dp"
+
+        android:lineHeight="29dp"
+        android:text="Afsar Hossen Shuvo"
+        android:textColor="#181725"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="364dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="410.65dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="40dp"
+
+        android:layout_height="29dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="440.65dp"
+        android:layout_marginEnd="24dp"
+        android:lineHeight="29dp"
+        android:text="Email"
+        android:textColor="#7C7C7C"
+        android:textFontWeight="600"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+
+        android:layout_marginStart="24.88dp"
+        android:layout_marginTop="479.65dp"
+        android:layout_marginEnd="24.88dp"
+
+        android:lineHeight="29dp"
+        android:text="imshuvo97@gmail.com"
+        android:textColor="#181725"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"/>
+
+    <ImageView
+
+        android:layout_width="14dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="369.07dp"
+        android:layout_marginTop="486.82dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/tick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+
+        android:layout_width="364dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="519.2dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+
+        android:layout_marginStart="24.88dp"
+        android:layout_marginTop="549.2dp"
+        android:layout_marginEnd="24.88dp"
+        android:lineHeight="29dp"
+        android:text="Password"
+        android:textColor="#7C7C7C"
+        android:textFontWeight="600"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    <ImageView
+        android:layout_width="114.87dp"
+        android:layout_height="7.22dp"
+
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="599.09dp"
+        android:layout_marginEnd="25dp"
+
+        android:src="@drawable/dot"
+        android:textColor="#181725"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    <ImageView
+
+        android:layout_width="14dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="369.07dp"
+        android:layout_marginTop="593.24dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/show"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+
+        android:id="@+id/imageView11"
+        android:layout_width="364dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="627.75dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24.88dp"
+        android:layout_marginTop="647.75dp"
+        android:layout_marginEnd="24.88dp"
+        android:lineHeight="29dp"
+        android:text="By continuing you agree to our Terms of Service
+and Privacy Policy."
+        android:textColor="#7C7C7C"
+        android:textFontWeight="600"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/singupbtn"
+        android:layout_width="364dp"
+        android:layout_height="67dp"
+
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="716.75dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/submitbuttonround"
+        android:text="Sing Up"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
